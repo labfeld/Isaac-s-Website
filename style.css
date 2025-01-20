@@ -1,0 +1,27 @@
+body{
+    background-color: #202020;
+    font-family: "Pixelify Sans", serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    color: aqua;
+}
+
+p {
+    color: blue;
+    font-size: xx-large;
+}
+
+a {
+    color: aliceblue;
+}
+
+li {
+    margin-top: 8px;
+}
+ul{
+    list-style-image: url('Invicon_Netherite_Sword.png');
+
+}
