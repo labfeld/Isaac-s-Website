@@ -25,3 +25,15 @@ ul{
     list-style-image: url('Invicon_Netherite_Sword.png');
 
 }
+
+#button {
+    color: blanchedalmond;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+#button:hover {
+    padding: 15px;
+    background-color: darkred;
+}
