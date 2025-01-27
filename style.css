@@ -21,6 +21,12 @@ body{
         #30f88aff 16.5% 25%
       );
   }
+  div {
+    border-color: rgba(94, 255, 0, 0.466) #32a1ce;
+    border-width: 1em;
+    border-style: double;
+    height: 900px;
+}
   
 
 h1 {
