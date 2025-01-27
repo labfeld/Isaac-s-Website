@@ -1,8 +1,27 @@
 body{
-    background-color: #202020;
     font-family: "Pixelify Sans", serif;
     color:linear-gradient(#e66465, #9198e5);
-}
+
+    background: repeating-conic-gradient(
+        from 0deg at 80% 50%,
+        #5691f580 0% 8.25%,
+        #b338ff80 8.25% 16.5%,
+        #f8305880 16.5% 25%
+      ),
+      repeating-conic-gradient(
+        from 15deg at 50% 50%,
+        #e856f580 0% 8.25%,
+        #ff384c80 8.25% 16.5%,
+        #e7f83080 16.5% 25%
+      ),
+      repeating-conic-gradient(
+        from 0deg at 20% 50%,
+        #f58356ff 0% 8.25%,
+        #caff38ff 8.25% 16.5%,
+        #30f88aff 16.5% 25%
+      );
+  }
+  
 
 h1 {
     text-align: center;
