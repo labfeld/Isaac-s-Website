@@ -1,6 +1,7 @@
 body{
     background-color: #202020;
     font-family: "Pixelify Sans", serif;
+    color:linear-gradient(#e66465, #9198e5);
 }
 
 h1 {
@@ -26,6 +27,10 @@ ul{
 
 }
 
+h2 {
+    color:greenyellow;
+}
+
 #button {
     color: blanchedalmond;
     background-color: red;
@@ -36,4 +41,13 @@ ul{
 #button:hover {
     padding: 15px;
     background-color: orange;
+}
+
+.oneYT {
+    color: cyan;
+}
+
+
+.twoYT {
+    color: burlywood;
 }
