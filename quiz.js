@@ -1,4 +1,4 @@
-let questions = ["what is diddys real name?", "Am I good at bedwars", "Am I a boy?"]
+let questions = ["what is diddys real name?", "Am I good at bedwars", "Am I a boy?", "Why do I play Bedwars?"]
 let answers = [
     [
         "sean", "YOUR MUM"
@@ -8,13 +8,19 @@ let answers = [
     ],
     [
         "Yes", "No"
+    ],
+    [
+        "Cuz I feel like it", "Because Wallibear plays bedwars.", 'Cuz Im bald', 'My IQ is 50'
     ]
+    
 ]
 let RightAnswer = [
     'sean',
     'good',
-    'Yes'
-]
+    'Yes',
+    'Cuz I feel like it',
+    'Because Wallibear plays bedwars.'
+]   
 
 let huzz = document.getElementById('question')
 let answer1 = document.getElementById('answer1')
