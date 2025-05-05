@@ -35,7 +35,10 @@ body {
     flex-direction: row;
     align-items: center;
 }
-
+.quizbuttons:active {
+    color: #00f9fd;
+    background-color: red;
+}
 .quizbuttons {
     margin: 16px;
     background-color: #00f9fd;
@@ -43,8 +46,7 @@ body {
     font-size: large;
     border: 3;
     border-radius: 10px;
-    transition: transform 0.2s ease;
-    transition: rotate 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
     font-family: "Pixelify Sans", serif;
@@ -68,12 +70,13 @@ body {
 }
 
 .quizbuttons:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
     background-color: greenyellow;
     animation-name: swingy;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     font: bold;
+    box-shadow: 0px 0px 9px yellow;
 
 }
 
@@ -134,3 +137,8 @@ h2 {
 #cat {
     width: 100%;
 }
+
+.hide {
+    display: none;
+}
+
