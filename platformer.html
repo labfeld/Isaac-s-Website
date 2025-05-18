@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Platformer Game</title>
+    <style>
+        canvas {
+            border: 2px solid black;
+            display: block;
+            margin: 0 auto;
+            background: #87CEEB; /* Sky blue background */
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: 'Pixelify Sans', cursive;
+        }
+        .controls {
+            margin-top: 20px;
+            text-align: center;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .back-button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <div class="controls">
+        <h2>Controls:</h2>
+        <p>Left Arrow / A: Move Left</p>
+        <p>Right Arrow / D: Move Right</p>
+        <p>Space / Up Arrow / W: Jump</p>
+    </div>
+    <a href="index.html" class="back-button">Back to Home</a>
+    <script src="platformer.js"></script>
+</body>
+</html> 
